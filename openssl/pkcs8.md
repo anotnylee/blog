@@ -77,5 +77,46 @@ convert a traditional private key (in PEM and encrypted, by default) to pkcs8 co
 openssl pkcs8 -in cakey.pem -topk8 -out cakey.pk8
 ```
 
+# Decrypt a pkcs8 compatible private key 
+
+```
+openssl pkcs8 -in cakey.pk8 -out cakey.nocrypt.pem
+
+cat cakey.nocrypt.pk8
+
+```
+and show as following.
+
+```
+-----BEGIN PRIVATE KEY-----
+MIIEvAIBADANBgkqhkiG9w0BAQEFAASCBKYwggSiAgEAAoIBAQCnAJRtVzOFvqW+
+u0Kexybqrhmvxku40lDzXxJuHTey0/ksJtMtDCoVPMsYynm3Srad11CK3WNdQMXV
+vQiJYkAFxVsnb8TQ4qZXFrwn8cD8nLW6sV8d96sD8/TVhA1EJtVW8Xmm2KegmP1a
+USF/Q+v9biPKJISA3isRs5+Ec1aFr+9Awn5BwHxbgE6Wd1J0W/cBtqC0sL+R/XNj
+oVPGc7zlCWKYiarqPc9HVCXTP+ETQ/T96+vmPSbCgjEf6J7PqBDOJr+gbhCevxCo
+REwzci0EskeuqAI0HgUlqJCkYDwGxJPsYwRURiC0w6QQAWlC7diJRMkjxNoK3AOR
+pnwy/+QhAgMBAAECggEAdAUpGNVODAqo51r9K4W7+ao+WilvDdW/O3S/PxS5T1mI
+cC4A4/jhe6OijXSNHtOfDwU5BWBM2cpYJueO+LLzO48ihsFVgLEVUseOrEl+A4Fz
+l2IGbLFVdAeV/oghF0nLSP21wD4gJqhiys42cU3ks0pDPvoju8udLE0X81KVt4Wl
+ayS2bI50Kyhdh+LTXhueJS33+sG5LcFp8Ps/DhXatx0DgxEHPZFg/2ogGibfk4WX
+amcgcwl6GyITaKcghhvPhoVGdLQSuGFeBTtikY8U8BblEmQQYXlTaf8utBHmmeER
+4s1Cxi0LLjBWwyl0VxpUfKn4bYBNjmBVn9e6BiuWaQKBgQDP4kYLGyoNJaq4Bypz
+9BmxFonjYAL8YEM8QgpYjdzqveRr0EF3biNees9QZkbGd3YZ3cqzVXsEMJkrTX/Q
+rrhLzzlyVs31cRWxMDepDutqji4LkUpRvgFD+Zy+8iAb7BlNZVw/BEave7tXCaxS
+bMMI+4LlEHwZMr3GMtie+UrjdwKBgQDNp/N+zhT5XIPozoT/sSXmVC7bwa5y5O4A
+dyYZuN7r5jciCA0greIFBOhs0e2c3G+MHacaZLA0G/faL5ixRCTTua9Yi1cVDA9g
+iKxd+oQL9LOMdJQRQKdWSfpXBnDewj+0NxOxq4ktwU5anKXEGf7MgCuiybOt4XmQ
+JW8iXL/rJwKBgHIlC1Kz0q4vXYL4pE3Q3X6IIqRPprQO4zwmAupG0uOt6stsKVY7
+in4pLsY1smztUVK4nsFDkW1mhePqBOF/3j/6A9ANa792HXQSRq20PH1gnlXJrCYg
+Dy/U0kViS1EpnWcK3dDYNzvJ077h19XWVG0NNP0zxQBNBTjb2GfJ+F3XAoGARtzW
+RB1SkNHWCgQPQ+OQgZsEQmisaZ6Ee9iSYk6XUYWT/b/0dgw0UzJrvANh8qjqLseQ
+6sFDDdGNR7sazAoE/od+6e2pZfEv4z101zUZBt2ceIs68e7rOgpnnlDz123rcXeA
+67mFnSR8kTBk1ft3FpQbdQ43QXTt5ENh1d9LqgUCgYAycY4gWcD/TTuCs9bYgTiC
+qU0RTMOYrSBYoZURRTcmkRDbsFNovwUVJF1w4sK8s8dHfxb43+LcMNyE3zWKNwPp
+dvRnUFB8WICjGePxxgTF9P1njYRClKTsoTngs+yVVmut8cCDu7YEANYZ6kZFvHPc
+ireCaSp6/OFt4gPPJjvbrA==
+-----END PRIVATE KEY-----
+```
+
 
 [Convert](http://help.globalscape.com/help/secureserver3/Converting_a_PEM_Encoded_PKCS_8_Format_Encrypted_private_key_to_a_compatible.htm)
