@@ -1,0 +1,81 @@
+# Format
+## traditional
+
+```
+-----BEGIN RSA PRIVATE KEY-----
+Proc-Type: 4,ENCRYPTED
+DEK-Info: AES-256-CBC,F23A0DC5E4EE0823AA7CB0EB41D9A240
+
+sRUrXgiJesVZ5ZKss72mLpi3KB070vb3yOaFJaUFqmmprcL8QAoDAH4/k3s24jQr
+Py3fD8O6NTmeQCQOdfE80NGCz3GQ09n0KfCz003ohfkRuj98TuRZPYmQgVZkNfZk
+rhKxqtnxku4tnHybXN6mKOm73rp3aTinnsMUZe375+9zYXR728fcjY9J7X+1ZdGI
+qb4iumhNHFGxw2Q21G1f1RTmyfKlcEZo+id6dL239WNyRlYJqw/m87LJvIXGRqHy
+tU/JMu3DNANwAC6nF2t1kKfh1gAkCkdyupGfHnJKlnyYPcpZELWJ9mzc97fNni7d
+0YAsb+yOSLohAzuJLKdr9crM6/KmBVwsJGIZLWyVNoxUyPCTjLrgJzNMkWD9C1wR
+rI1o0f/doMojmO4Vp/9gmYTW02uuJUoQlqBpewufgO9NvGXixxgTzl57lR/w1K2U
+F92yizbd+FUCREvjhuSH2y5Bb7Fj9HWH3kF/f31JZNnrTfRyZvsphkrbNPbvU9d5
+9dFsVZYZ1FnK+xcfflP6jzVziQCfG+paMoydKHVzzRRN4N62fC08pbJYAVJRRpcj
+6ClEZjIBeBkkv81L38HRn1evFHrsIEkKV3wi8Pq9n9Tvy8DwcpH1FW6E1c96YEF1
+WE6/x8UGjRJBs78zjUFkAzHJWc/7FBCaiUKZQAIL+NmGuTTUeYOeLiTpv3FIKLqF
+S7cyB04fJzy0wI/gq0VMwAVW3ZcPBMnFZvJpGHr/ink097sPC7JlZSrWF5wyWZpL
+5WlvtsfwglyV0Ldu8DP+ekCQsz+Dgshab0X1Vaqrwc3d+NqC6LKvlKGYbymBhFIR
+Zl3pkSX2jdTk5vNLh+Qpbsd2m0K3K2ADF+2/UMqTbtC0CxPj8Xv28kKtjaR+DcZy
+YX3JICqVEfFzehWl3hDuXSHM6N5az1NekSlnz2vq2GuTmlgjy7QvcCJC/YCeRqe2
+bf63/ZucaD7n/y7DHfvxjnrJ2zpYtTGujZKbnDcW1kFkC1luh0KcTECmMf4CYyax
+zE72n1Qk6S4X8LMsyBLIvVhboxsNG9nDUdP9l6ngh6Yc6DsNclR42kn4RRdvzU8R
+xhAdECrDZj+ROGiVMuJicuEtW4qF1DqMOJzU8xxK6F2jPm/uktKOcuSugu5VbqLm
+xzCrB5tTKt0eXPJXxMUFLTpdbxypJ56d4xvITfj4Q9YuoFnDhfoFlq49NGUvDat5
+XCdn6ZwspCKKMzqQJ+jfMc0tSdYORwrhbb+i72speMo2tk5kMyVfOCxiUrHv1ieG
+T77XDA2iPW7FToBgGEyDgUJt02GfE3wak0dZ2OEGhGSHHpSq1XMQbKUo486tfk+I
+mboYDREivzEg3lA6v5bet030f2Pzg/efo7P7zy/782u0TT7LrU7KnyAwkyOj35ey
+E3I0N3X8JiHRy1QrYukZXU/94ArWyyy6l2rYljba6Za1In6LWXYY++6+YR6MHlwr
+zXOHTQqdMO0PwDxU3FVcUVN/C+4RH6X/fqB8mVmp8JQ9jeiHhqLilfYmEqLo9GQR
+bJegO3RmoiuPFVe1VVi2jBfLpSxP88DkKqlt/sePbohKaSdPut7Hry6BuG/R/ADR
+-----END RSA PRIVATE KEY-----
+```
+
+
+## PKCS8 compatible
+
+```
+-----BEGIN ENCRYPTED PRIVATE KEY-----
+MIIE6TAbBgkqhkiG9w0BBQMwDgQINf1g9eDeYd4CAggABIIEyDSE4tygaTE+lOA+
+V75P48O0aI9hPtoAKUeHfcRysnpt3FDxH2bB2Th7eXQdo8hdcsK9LFQCblRDsCsK
+NSbfNWeIbXNLNt9XdVS1N0cy648+CZUxvf2cYNu0SZmK8gsSUG0Q3584uufhnm1x
+XBDPPJekAG1U5SRQXgSjBiPdte/RmapREnsPbsTLcTH4BOnLwLv548tKlSgt4quZ
+xvBSr+3e4aFZGVOef7RpR1SZo1vvSqX4OABrkjt1LlIzOe5248gHEsJP/zq83mNu
+b3VuYocRPtK4B5GakRj2pNflsIQNlakZ+/Wfoc+HXUQyTxuq1RZnNaOpMz5hdmqz
+hKU5Sr9pRtJ0jH9TzHADEN7MzqPbkqaF5rTIWb6JNppvvrcdZ313z1I7C8s8oWUg
+cvRqVCbDa/CkJVV1/Zop9wBH+yoIgCTMMHOXKH7K6ukMjLW7w2jhlpN4azBhcHDf
+lgSjvVeaxq0wy0/kyxuurPr6/hb1UVNMzX5DGfOPGuxE1IOsi7ghsL4X4CppxWPM
+OCyfC0V+6qUgDUI10ldasDDYDRK4D8S0spkugtNRQptkCKc7Xq8vIYfxVXklEJzD
+cCsP9j3Dmr3LD+jw97juJD0UtB3N4UtxKUCOG9xFzwdSECzUHpPS1QhjzulCPIy6
+Vdxmu+GRiC11UXom1Xm33gCDbPq3B1LUrQB0GHnrJp+v08BRDnvGbw4nVmpCtxTP
+5AzWhNO5SSuguvO79fCoW1ITs5gXDOeQO48m/5Z1UYPr6jrXfebA7MGhIel5eMy+
+r2HnWpCnW+bSgFHA6k+DNYAsQBy+b86cmXS7AorqRBWV/857ZjnBqafGHZ0uG/Ga
+v5J/aXW/GvgoDxoVQsNyJFipwwcciY3kBu77Qs7OavImjfcjCoxZiH+RpdauDwEh
+u6Anx23Gn/NnOdX293wuzV9HaND6b71AUt5R/tcr16Vce8EBxNWYlqFCx1Ew/wlD
+whwvlrZLKNBeDy9xpJ9bmKxGQLKwVm/jMbCPa09cFk/4JSbQEjpFYu/9gSvCHsgs
+WKPbG9MnRAkjbj8gLAA1VqknpMQU167rF21AGor1mjNMM/bZbeRf1DCEf+r2TqmL
+DPES70g5TOn0cv2n8wWdarHNmMBKongddOSsr6KJAYpkFM9NwyW2RVAW8AoyMFhp
+IYnsE5QTB6DX5ROmXtjIiTQOxWO8H8IIqwmrowQ/uibW01YEC+TIEST6oWayTbuQ
+8AbuZTQZeP8YipDuUoj4Mp2sTmhXnSJlpiUyG5HZ+BcYwK5oJUu4mbr8jMFUBKY/
+/85Yw/3LBmfRg1u13ZpuBkUMUCUsaRui18JVDgHoxuWrzZ3D05251k39q/5ggmBQ
+pCGvIgquqJi30BF7xXQT9qNuBD+i1mVJezTVWQwgwGisr7jXCNVnDItdEOn024fM
+BveDeY0wwo3cVyyL/NdBtFqap3hjcBZlHDaSqQd3OljMn+I3gEoGHk3JyRUpE0Fl
+Fs4xOWpGc6xKD9Zxt9Q4+uaxeTTwnwsU3QI7+BGkPoFBoYKWslO4pvUxQKyKj5zV
+PiCcwWvEIJV2QmJczpqKgUSFIbapQlz+daGY0xSWVrsPyniRVsGxMGEt+P2vhm+1
+n86IpkNfOMa9/jcytg==
+-----END ENCRYPTED PRIVATE KEY-----
+```
+
+# Basic convert
+
+convert a traditional private key (in PEM and encrypted, by default) to pkcs8 compatible private key (in PEM and encrypted, by default)
+
+```
+openssl pkcs8 -in cakey.pem -topk8 -out cakey.pk8
+```
+
+
+[Convert](http://help.globalscape.com/help/secureserver3/Converting_a_PEM_Encoded_PKCS_8_Format_Encrypted_private_key_to_a_compatible.htm)
